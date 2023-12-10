@@ -1,7 +1,7 @@
 /* container */
-.Divcontainer{
-    width: min(100% , 1440px);
-    margin:auto;
+.Divcontainer {
+    width: min(100%, 1440px);
+    margin: auto;
 }
 
 /* header */
@@ -15,38 +15,137 @@ header {
 }
 
 .activetxt,
-.inactivetxt{
-font-style: normal;
-font-weight: 500;
-color: #27187F;
-font-family: Ubuntu;
-font-size: 24px;
-line-height: normal;
+.inactivetxt {
+    font-style: normal;
+    font-weight: 500;
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 24px;
+    line-height: normal;
 }
 
-ul{
+ul {
     display: flex;
     column-gap: 50px;
 }
 
-.inactivetxt{
-color: #758BFD;
+.inactivetxt {
+    color: #758BFD;
 }
 
 .searchIcon {
-border-radius: 10px;
-border: 3px solid #758BFD;
-display: flex;
-width: 222px;
-height: 56px;
-padding: 12px 8px 12px 182px;
-justify-content: flex-end;
-align-items: center;
-flex-shrink: 0;
+    border-radius: 10px;
+    border: 3px solid #758BFD;
+    display: flex;
+    width: 222px;
+    height: 56px;
+    padding: 12px 8px 12px 182px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
 }
 
-.fa-magnifying-glass{
+.fa-magnifying-glass {
     font-size: 32px;
     flex-shrink: 0;
     color: #758BFD;
+}
+
+
+/* section */
+
+section {
+    padding: 115px 98px;
+    background-color: #DDEAF8;
+}
+
+
+.articletitle {
+    color: #27187F;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 68px;
+    line-height: normal;
+    font-family: Ubuntu;
+    font-size: 32px;
+}
+
+.articleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 18px;
+    margin-top: 68px;
+    width: 100%;
+    row-gap: 51px;
+}
+
+.article {
+    width: 400px;
+    background-color: #FFFFFF;
+    padding: 33px 30px;
+    border-radius: 10px;
+}
+
+.picture {
+    width: calc(100%-60px);
+    height: 188px;
+    border-radius: 10px;
+}
+
+.txt {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    color: #133B3A;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.pageFooter {
+    display: flex;
+    justify-content: space-between;
+    height: 239px;
+    background-color: #758BFD;
+    padding: 75px 98px;
+}
+
+.iconsContainer {
+    width: 114px;
+    height: 22px;
+    display: flex;
+    column-gap: 20px;
+}
+
+
+.footerTxt {
+    color: #FFF;
+    font-family: Century Gothic;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+.icons {
+    margin-top: 22px;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+
+.Cards {
+    column-gap: 11px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 109px;
+    padding: 13px 5px 15px 2px;
 }
